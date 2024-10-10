@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/gambar/Untitled design.png");
+}
+
+header {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.logo-container h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: -3px;
+}
+
+.container {
+    width: 30%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.login-form {
+    width: 70%;
+    margin: 40px auto;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-style: bold;
+}
+
+.form-group input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn-login {
+    width: 40%; /* Adjust width as needed */
+    height: 40px;
+    background-color: #004AAD;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:110px; /* Centers the button horizontally */
+}
+
+.btn-login:hover {
+    background-color: #003173;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #004AAD;
+}
+
+a:hover {
+    color: #003173;
+}
